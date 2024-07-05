@@ -1,1 +1,2 @@
-# R-Valentin-V-CycleGAN-Neural-Transfer stepik:636018238
+# CycleGAN + Neural-Transfer 
+# stepik:636018238
