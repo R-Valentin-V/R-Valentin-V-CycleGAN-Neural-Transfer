@@ -1,8 +1,9 @@
 # CycleGAN + Neural-Transfer             
 ### stepik:636018238
-# Neural-Transfer 
+
+
+#  [Neural-Transfer ](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb)        
 ### 1. Извлечение признаков: 
-[.ipynb/VGG Gram_matrix.ipynb](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb)
 Используется предварительно обученная модель VGG19 для извлечения признаков из изображений.  
 
 ### 2. Определение целевого изображения:
