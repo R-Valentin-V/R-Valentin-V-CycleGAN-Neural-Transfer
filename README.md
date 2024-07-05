@@ -57,15 +57,25 @@ CycleGAN (Cycle-Consistent Adversarial Networks) — это тип генера�
 A(B(y))≈y.
 ### 3. Функции потерь:     
 
-1. **GAN Loss (`criterion_GAN`):**
+- **GAN Loss (`criterion_GAN`):**
    $$\[ \text{MSELoss} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]$$
 
-2. **Cycle Consistency Loss (`criterion_cycle`):**
+- **Cycle Consistency Loss (`criterion_cycle`):**
     $$\[ \text{L1Loss} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \] $$
 
-3. **Identity Loss (`criterion_identity`):**
+- **Identity Loss (`criterion_identity`):**
     $$\[ \text{L1Loss} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \] $$
    
-5. **Style Loss (`loss_G_style`):**    
+- **Style Loss (`loss_G_style`):**    
    $$G_{ij} = \sum_{k} F_{ik} F_{jk}$$
+
+### Обучение:
+ - CycleGAN обучается с использованием мини-батчей изображений из двух доменов. Генераторы и дискриминаторы обновляются итеративно, чтобы минимизировать соответствующие функции потерь.
+   
+## Примеры
+<p align="center">
+  <img src="https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/Images/output_image%204.png" alt=output_image 4.png">
+</p>       
+ 
+  [Веса модел](https://drive.google.com/file/d/1nphc9T5y1GL74TnQlK9OgtR4G505vW59/view?usp=drive_link) 
 
