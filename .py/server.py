@@ -136,7 +136,7 @@ G_AB = Generator(input_nc, output_nc, ngf, n_blocks).to(device)
 
 model_path = 'models/G_AB.pth'
 # Загрузка модели на CPU
-G_AB.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
+G_AB.load_state_dict(torch.load(model_path, map_location=torch.device('cuda')))
 G_AB.eval()
 
 @app.route('/style_transfer', methods=['POST'])
