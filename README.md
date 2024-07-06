@@ -21,7 +21,7 @@
 - [TG bots](#tg-bots)
 - [Server](#Server)
 - [Docker](#Docker)  
-   - [.tar](#.tar)      
+   - [.tar](#tar)      
    - [creations](#creations)
 #
    
