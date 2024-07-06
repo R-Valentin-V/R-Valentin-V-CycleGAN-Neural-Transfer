@@ -3,7 +3,7 @@
 
  # Оглавление
 
-- [Neural-Transfer](#[Neural-Transfer ](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb) )
+- [Neural-Transfer](#Neural-Transfer)
   - [1. Извлечение признаков](#1-извлечение-признаков)
   - [2. Определение целевого изображения](#2-определение-целевого-изображения)
   - [3. Потери контента](#3-потери-контента)
