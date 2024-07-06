@@ -152,17 +152,17 @@ def style_transfer():
         content_image = content_image.to(device)
         style_image = style_image.to(device)
 
-        # Generate the target image
+        # Генерация целевого изображения
         target = content_image.clone().requires_grad_(True).to(device)
 
-        # Define the optimizer
+        # Определяем оптимизатор
         optimizer = optim.Adam([target], lr=0.003)
 
-        # Define the style and content weights
+        # Определяем стиль и вес контента
         style_weight = 1e6
         content_weight = 1
 
-        # Training loop
+        # Цикл обучения
         for step in range(300):
             target_features = model(target)
             content_features = model(content_image)
@@ -173,7 +173,7 @@ def style_transfer():
             for target_feature, content_feature, style_feature in zip(target_features, content_features, style_features):
                 content_loss += torch.mean((target_feature - content_feature) ** 2)
 
-                # Compute the Gram matrix for style features
+                # Вычислить матрицу Грама для стилевых особенностей
                 target_gram = gram_matrix(target_feature)
                 style_gram = gram_matrix(style_feature)
                 style_loss += torch.mean((target_gram - style_gram) ** 2)
@@ -187,11 +187,11 @@ def style_transfer():
             if step % 10 == 0:
                 print(f"Step {step}, Total loss: {total_loss.item()}")
 
-        # Convert the final image to PIL image
+        # Преобразование конечного изображение в PIL-изображение
         final_image = im_convert(target)
         final_image_pil = Image.fromarray((final_image * 255).astype('uint8'))
 
-        # Save the final image to a byte array
+        # Сохраняем финальное изображение в байтовый массив
         final_image_byte_arr = io.BytesIO()
         final_image_pil.save(final_image_byte_arr, format='PNG')
         final_image_byte_arr.seek(0)
@@ -204,14 +204,14 @@ def style_transfer():
         content_image = load_image(content_image_bytes, shape=None)
         content_image = content_image.to(device)
 
-        # Process the image using the GAN model
+        # Обработтка изображение с использованием модели GAN
         fake_B = G_AB(content_image)
 
-        # Convert the final image to PIL image
+        # Преобразовать конечное изображение в PIL-изображение
         final_image = im_convert(fake_B)
         final_image_pil = Image.fromarray((final_image * 255).astype('uint8'))
 
-        # Save the final image to a byte array
+        # Сохраняем финальное изображение в байтовый массив
         final_image_byte_arr = io.BytesIO()
         final_image_pil.save(final_image_byte_arr, format='PNG')
         final_image_byte_arr.seek(0)
