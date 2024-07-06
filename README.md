@@ -18,7 +18,7 @@
   - [Обучение](#обучение)
   - [Пример](#примеры)
 - [TG bots](#tg-bots)
-- [server](#server)
+- [Server](#Server)
 - [Docker](#Docker)  
    - [tar](#tar)      
    - [creations](#creations)
@@ -60,7 +60,7 @@ $$
 
       
 
-#|[CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)    
+# [CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)    
 |[weights](https://drive.google.com/file/d/1nphc9T5y1GL74TnQlK9OgtR4G505vW59/view?usp=drive_link)|
 
 CycleGAN (Cycle-Consistent Adversarial Networks) — это тип генеративно-состязательной сети (GAN), которая позволяет выполнять задачи трансляции изображений между двумя немаркированными доменами без использования парных данных. Основной принцип CycleGAN заключается в том, чтобы научиться преобразовывать изображения из одного домена в другой, сохраняя при этом циклическую согласованность (cycle consistency).
@@ -101,17 +101,19 @@ A(B(y))≈y.
    
 ## Примеры
 <p align="center">
-  <img src="https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/Images/output_image%204.png" alt=output_image 4.png">
+  <img src="https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/Images/output_image%205.png" alt=output_image 4.png">
 </p>       
  
 
 #  [TG bots](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/bot.py)       
 
-[![Видео на YouTube](https://img.youtube.com/vi/AtTYiZ2SxUF81Jp1/0.jpg)](https://youtu.be/DxTwVp8cV_0?si=AtTYiZ2SxUF81Jp1)      
-
-[![Видео на YouTube](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
-#  [server](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/server.py)    
+<div style="text-align: center;">
+  <a href="https://www.youtube.com/watch?v=ybaHsG_J9lw">
+    <img src="https://img.youtube.com/vi/ybaHsG_J9lw/0.jpg" alt="Видео на YouTube">
+  </a>
+</div>
+ 
+#  [Server](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/server.py)    
 
 
 #  [Docker](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/tree/main/Docker)     
