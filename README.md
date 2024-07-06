@@ -1,4 +1,5 @@
-# CycleGAN + Neural-Transfer             
+# Стилизация изображений в телеграм-боте 
+## CycleGAN + Neural-Transfer             
 ### stepik ID: 636018238
 # 
  # Оглавление
