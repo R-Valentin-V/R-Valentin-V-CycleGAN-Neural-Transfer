@@ -1,5 +1,5 @@
 # CycleGAN + Neural-Transfer             
-### stepik:636018238
+### stepik ID: 636018238
 
  # Оглавление
 
@@ -20,8 +20,8 @@
 - [TG bots](#tg-bots)
 - [server](#server)
 - [Docker](#Docker)  
-   -[tar](#tar)      
-   -[creations](#creations)
+   - [tar](#tar)      
+   - [creations](#creations)
   
 # [Neural-Transfer](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb)        
 ### 1. Извлечение признаков: 
@@ -60,7 +60,7 @@ $$
 
       
 
-# |[CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)|    
+#|[CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)    
 |[weights](https://drive.google.com/file/d/1nphc9T5y1GL74TnQlK9OgtR4G505vW59/view?usp=drive_link)|
 
 CycleGAN (Cycle-Consistent Adversarial Networks) — это тип генеративно-состязательной сети (GAN), которая позволяет выполнять задачи трансляции изображений между двумя немаркированными доменами без использования парных данных. Основной принцип CycleGAN заключается в том, чтобы научиться преобразовывать изображения из одного домена в другой, сохраняя при этом циклическую согласованность (cycle consistency).
@@ -105,7 +105,11 @@ A(B(y))≈y.
 </p>       
  
 
-#  [TG bots](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/bot.py)     
+#  [TG bots](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/bot.py)       
+
+[![Видео на YouTube](https://img.youtube.com/vi/AtTYiZ2SxUF81Jp1/0.jpg)](https://youtu.be/DxTwVp8cV_0?si=AtTYiZ2SxUF81Jp1)      
+
+[![Видео на YouTube](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 #  [server](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/server.py)    
 
