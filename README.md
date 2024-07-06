@@ -1,6 +1,6 @@
 # CycleGAN + Neural-Transfer             
 ### stepik ID: 636018238
-
+# 
  # Оглавление
 
 - [Neural-Transfer](#Neural-Transfer)
@@ -22,7 +22,8 @@
 - [Docker](#Docker)  
    - [tar](#tar)      
    - [creations](#creations)
-  
+#
+   
 # [Neural-Transfer](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb)        
 ### 1. Извлечение признаков: 
 Используется предварительно обученная модель VGG19 для извлечения признаков из изображений.  
@@ -56,8 +57,9 @@ $$
 ![Input 1](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/raw/main/Images/input%201.png)
 <p align="center">
   <img src="https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/Images/output_image%201.png" alt="output_image 1.png">
-</p>     
+</p>
 
+#
       
 
 # [CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)    
@@ -104,7 +106,7 @@ A(B(y))≈y.
   <img src="https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/Images/output_image%205.png" alt=output_image 4.png">
 </p>       
  
-
+#
 #  [TG bots](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/bot.py)       
 
 <p align="center">
@@ -112,6 +114,8 @@ A(B(y))≈y.
     <img src="https://img.youtube.com/vi/ybaHsG_J9lw/0.jpg" alt="Видео на YouTube">
   </a>
 </p>
+
+#
  
 #  [Server](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/server.py)    
 
