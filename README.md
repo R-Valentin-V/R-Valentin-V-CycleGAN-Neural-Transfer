@@ -57,10 +57,12 @@ $$
 
       
 
-# |[CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)|        ([weights](https://drive.google.com/file/d/1nphc9T5y1GL74TnQlK9OgtR4G505vW59/view?usp=drive_link))
+# |[CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)|    
+([weights](https://drive.google.com/file/d/1nphc9T5y1GL74TnQlK9OgtR4G505vW59/view?usp=drive_link))
 
 CycleGAN (Cycle-Consistent Adversarial Networks) — это тип генеративно-состязательной сети (GAN), которая позволяет выполнять задачи трансляции изображений между двумя немаркированными доменами без использования парных данных. Основной принцип CycleGAN заключается в том, чтобы научиться преобразовывать изображения из одного домена в другой, сохраняя при этом циклическую согласованность (cycle consistency).
-### Для обучения были исользовнны следующие датасеты:     
+### Для обучения были исользовнны следующие датасеты:    
+
    -    [Flickr8k-600](https://www.kaggle.com/datasets/xxxcccwork/flickr8k600)
    -    [MaySpace](https://drive.google.com/file/d/1HfLbigm6kblWgEtabgzlym3-DO9PfWwi/view?usp=drive_link)
 
