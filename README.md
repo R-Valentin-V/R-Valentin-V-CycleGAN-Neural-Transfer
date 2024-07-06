@@ -11,7 +11,7 @@
   - [5. Оптимизация](#5-оптимизация)
 - [Пример](#пример)
 - [CycleGAN](#CycleGAN)
-  - [Для обучения были использованы следующие датасеты](#для-обучения-были-использованы-следующие-датасеты)
+  - [Для обучения были использованы следующие датасеты](#Для-обучения-были-исользовнны-следующие-датасеты:)
   - [1. Генераторы и Дискриминаторы](#1-генераторы-и-дискриминаторы)
   - [2. Циклическая согласованность](#2-циклическая-согласованность)
   - [3. Функции потерь](#3-функции-потерь)
@@ -20,7 +20,7 @@
 - [TG bots](#tg-bots)
 - [server](#server)
 
-#  [Neural-Transfer ](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb)        
+# [Neural-Transfer](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb)        
 ### 1. Извлечение признаков: 
 Используется предварительно обученная модель VGG19 для извлечения признаков из изображений.  
 
@@ -57,14 +57,14 @@ $$
 
       
 
-#  |[CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)|        ([weights](https://drive.google.com/file/d/1nphc9T5y1GL74TnQlK9OgtR4G505vW59/view?usp=drive_link))
+# |[CycleGAN](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/CycleGAN_.ipynb)|        ([weights](https://drive.google.com/file/d/1nphc9T5y1GL74TnQlK9OgtR4G505vW59/view?usp=drive_link))
 
 CycleGAN (Cycle-Consistent Adversarial Networks) — это тип генеративно-состязательной сети (GAN), которая позволяет выполнять задачи трансляции изображений между двумя немаркированными доменами без использования парных данных. Основной принцип CycleGAN заключается в том, чтобы научиться преобразовывать изображения из одного домена в другой, сохраняя при этом циклическую согласованность (cycle consistency).
 ### Для обучения были исользовнны следующие датасеты:     
    -    [Flickr8k-600](https://www.kaggle.com/datasets/xxxcccwork/flickr8k600)
    -    [MaySpace](https://drive.google.com/file/d/1HfLbigm6kblWgEtabgzlym3-DO9PfWwi/view?usp=drive_link)
 
-### 1.  Генераторы и Дискриминаторы:    
+### 1. Генераторы и Дискриминаторы:    
  - **Генераторы:** CycleGAN использует два генератора, A и B. Генератор G учится преобразовывать изображения из домена X в домен Y, а генератор B — из домена Y в домен X.
  -  **Дискриминаторы:** Также используются два дискриминатора, $D_x$ и $D_y$ . Дискриминатор $D_x$ пытается отличить реальные изображения из домена X от сгенерированных генератором B, а дискриминатор $D_y$  — реальные изображения из домена Y от сгенерированных генератором A.
 
