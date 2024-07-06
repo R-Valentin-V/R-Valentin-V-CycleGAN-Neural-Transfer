@@ -20,7 +20,7 @@
 - [TG bots](#tg-bots)
 - [server](#server)
 - [Docker](#Docker)  
-   -[tar](#tar)
+   -[tar](#tar)      
    -[creations](#creations)
 # [Neural-Transfer](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb)        
 ### 1. Извлечение признаков: 
