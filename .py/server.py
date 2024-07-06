@@ -45,7 +45,7 @@ def im_convert(tensor):
     image = image.clip(0, 1)
     return image
 
-# Define the VGG model
+# Определяем модель VGG
 class VGG(nn.Module):
     def __init__(self):
         super(VGG, self).__init__()
@@ -60,19 +60,19 @@ class VGG(nn.Module):
                 features.append(x)
         return features
 
-# Define the loss functions
+# функция потерь
 def gram_matrix(tensor):
     _, d, h, w = tensor.size()
     tensor = tensor.view(d, h * w)
     gram = torch.mm(tensor, tensor.t())
     return gram
 
-# Initialize the model
+# Инициализация модели
 print(torch.cuda.is_available())
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = VGG().to(device).eval()
 
-# Define the G_AB model architecture
+# Определяем архитектуру модели G_AB
 class Generator(nn.Module):
     def __init__(self, input_nc, output_nc, ngf=64, n_blocks=9):
         super(Generator, self).__init__()
