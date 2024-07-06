@@ -107,11 +107,11 @@ A(B(y))≈y.
 
 #  [TG bots](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/bot.py)       
 
-<div style="text-align: center;">
+<p align="center">
   <a href="https://www.youtube.com/watch?v=ybaHsG_J9lw">
     <img src="https://img.youtube.com/vi/ybaHsG_J9lw/0.jpg" alt="Видео на YouTube">
   </a>
-</div>
+</p>
  
 #  [Server](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/server.py)    
 
