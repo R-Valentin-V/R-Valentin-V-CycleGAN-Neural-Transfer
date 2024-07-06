@@ -91,7 +91,7 @@ A(B(y))≈y.
 
 
    
-- **Style Loss (`loss_G_style`), content loss (loss_G_content `):**    
+- **Style Loss (`loss_G_style`), content loss (`loss_G_content `):**    
    $$G_{ij} = \sum_{k} F_{ik} F_{jk}$$
 
 Слои извлечения VGG:
