@@ -163,7 +163,7 @@ def style_transfer():
         content_weight = 1
 
         # Training loop
-        for step in range(1):
+        for step in range(300):
             target_features = model(target)
             content_features = model(content_image)
             style_features = model(style_image)
