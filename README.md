@@ -9,17 +9,19 @@
   - [3. Потери контента](#3-потери-контента)
   - [4. Потери стиля](#4-потери-стиля)
   - [5. Оптимизация](#5-оптимизация)
-- [Пример](#пример)
+  - [Пример](#пример)
 - [CycleGAN](#CycleGAN)
   - [Для обучения были использованы следующие датасеты](#Для-обучения-были-исользовнны-следующие-датасеты)
   - [1. Генераторы и Дискриминаторы](#1-генераторы-и-дискриминаторы)
   - [2. Циклическая согласованность](#2-циклическая-согласованность)
   - [3. Функции потерь](#3-функции-потерь)
   - [Обучение](#обучение)
-- [Примеры](#примеры)
+  - [Пример](#примеры)
 - [TG bots](#tg-bots)
 - [server](#server)
-
+- [Docker](#Docker)  
+   -[tar](#tar)
+   -[creations](#creations)
 # [Neural-Transfer](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.ipynb/VGG%20Gram_matrix.ipynb)        
 ### 1. Извлечение признаков: 
 Используется предварительно обученная модель VGG19 для извлечения признаков из изображений.  
@@ -105,3 +107,8 @@ A(B(y))≈y.
 #  [TG bots](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/bot.py)     
 
 #  [server](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/blob/main/.py/server.py)    
+
+
+#  [Docker](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/tree/main/Docker)     
+### |[tar](https://drive.google.com/file/d/17po7O6MhQBRp60_kssxTZz2tujUSsmtN/view?usp=drive_link)| 
+### |[creations](https://github.com/R-Valentin-V/R-Valentin-V-CycleGAN-Neural-Transfer/tree/main/Docker/creations)|
