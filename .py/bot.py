@@ -7,10 +7,10 @@ import requests
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Токен вашего бота
+# Токен бота
 TOKEN = ' '
 
-# URL вашего локального сервера Flask
+# URL локального сервера Flask
 FLASK_SERVER_URL = 'http://localhost:5000/style_transfer'
 
 # Обработчик команды /start
